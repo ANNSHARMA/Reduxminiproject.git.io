@@ -65,10 +65,8 @@ const Form = () => {
   //handlesubmit
   const handleSubmit = (e) => {
     e.preventDefault();
-    // console.log();
     if (nameValidation(name) && scoreValidation(score)) {
       const userdata = {name, score, id}
-      localStorage.setItem("userData", JSON.stringify(userdata));
       dispacth(submitdata(userdata));
       alert("Data is submitted!");
       setid("");
