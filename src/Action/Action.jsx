@@ -4,10 +4,10 @@ import axios from "axios";
 export const getData = () =>{
   return (dispacth) =>{
     try{
-    axios.get('https://ultimate-tennis1.p.rapidapi.com/global_players_stats/serve/career/all',{
+    axios.get('https://cricket-live-line1.p.rapidapi.com/playerRanking/1',{
       headers: {
         'x-rapidapi-key': '53856e8622mshf4f81d1d7f29d55p14114fjsn82cac1895aed',
-        'x-rapidapi-host': 'ultimate-tennis1.p.rapidapi.com'
+        'x-rapidapi-host': 'cricket-live-line1.p.rapidapi.com'
       }
     }).then((res)=>{
       console.log(res);

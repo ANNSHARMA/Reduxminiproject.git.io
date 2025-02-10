@@ -2,7 +2,7 @@ import { GET, SCORE_DATA } from "./Action/ActionType";
 
 //central state
 const initistate = {
-  users: [],
+  users: {},
   score: [],
 }
 
