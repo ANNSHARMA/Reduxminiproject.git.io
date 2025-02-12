@@ -6,12 +6,12 @@ const Banner = () => {
 
 return(
 <Parallax
-        blur={{ min: -15, max: 15 }}
+        blur={{ min: -15, max: 20 }}
         bgImage={image}
         bgImageAlt="the dog"
         strength={-200}
     >
-        <div style={{ height: '200px' }} />
+        <div style={{ height: '350px', width: '800px' }} />
     </Parallax>
 
 )
